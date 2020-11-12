@@ -9,7 +9,11 @@ baseDir=$(pwd)
 
 go get github.com/novalagung/gorep
 cd src/project
+
 $GOPATH/bin/gorep -from "project" -to "$projectName" 
+sed -i'.back' "s/project/$projectName/g" auth_themes/clean/clean.go
+rm auth_themes/clean/clean.go.back
+
 echo "Import renames"
 
 mv "$baseDir/src/project" "$baseDir/src/$projectName" | echo "Source path renamed"
