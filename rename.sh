@@ -8,7 +8,10 @@ baseDir=$(pwd)
 #grep -rlZ --exclude=$0 '{{project}}' . | xargs -0 sed -i "s/{{project}}/$projectName/g"
 
 go get github.com/novalagung/gorep
-$GOPATH/bin/gorep -from "project" -to "$projectName"
+cd src/project
+$GOPATH/bin/gorep -from "project" -to "$projectName" 
+echo "Import renames"
+
+mv "$baseDir/src/project" "$baseDir/src/$projectName" | echo "Source path renamed"
 
 echo "End process"
-echo "End install"
