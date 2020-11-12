@@ -2,13 +2,13 @@
 
 Base on backend-gosimple-template
 
-Added: 
+*Added:* 
 - QOR Admin
 
 Default admin: ```admin@example.com / admin```
 
 
-Usage:
+## Usage:
 
 - Run project for create QOR Admin service tables
 ```bash
@@ -22,5 +22,5 @@ $ go run project/cmd/migrate -up
 
 - [optional] Rename project
 ```bash
-$ ./renames.sh
+$ ./rename.sh
 ```
