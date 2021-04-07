@@ -200,6 +200,8 @@ github.com/qor/session v0.0.0-20170907035918-8206b0adab70 h1:8l21EEdlZ9R0AA3FbeU
 github.com/qor/session v0.0.0-20170907035918-8206b0adab70/go.mod h1:ldgcaca0ZGx6tFtd/w0ELq5jHD/KLJ1Lbdn8qhr/pQ0=
 github.com/qor/sorting v0.0.0-20201007033714-f8eb1268875a h1:CHKBNTkOTWNSb2OVKgsV/TlBeeiJ2O0dBg7MXvN9X6g=
 github.com/qor/sorting v0.0.0-20201007033714-f8eb1268875a/go.mod h1:Nmne32NH9i0UnoO0z2tbzXEKbrptnR3RM1MoRYTgpaM=
+github.com/qor/sorting v0.0.0-20201215093431-99d91cb78b78 h1:PO5BkdQn+f4lx/oHl7ASYgR0pGEmx3Wvhpxq3O/CRfM=
+github.com/qor/sorting v0.0.0-20201215093431-99d91cb78b78/go.mod h1:Nmne32NH9i0UnoO0z2tbzXEKbrptnR3RM1MoRYTgpaM=
 github.com/qor/validations v0.0.0-20171228122639-f364bca61b46 h1:dRlsVUhwD1pwrasuVbNooGQITYjKzmXK5eYoEEvBGQI=
 github.com/qor/validations v0.0.0-20171228122639-f364bca61b46/go.mod h1:UJsA0AuvrKNaWtrb1UzKai10mN3ZBbQkPjUHpxwahTc=
 github.com/qor/worker v0.0.0-20190805090529-35a245417f70 h1:EUo1U/EGuZ/CQeLvdQoqwRA/lxcf0rIiZ/Cc101+hV4=
